@@ -46,8 +46,6 @@ jobs:
           path: ./build/libs/springdemo-0.0.1-SNAPSHOT.jar
       - name: Build Docker image
         run: docker build -t johanmathew/welcome-app .
-      - name: Test Docker Container
-        run: docker run -rm johanmathew/welcome-app
       - name: Push Docker Image
         run: docker push johanmathew/welcome-app
 
