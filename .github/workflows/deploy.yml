@@ -3,8 +3,6 @@
 
 name: CI/CD 2
 
-name: Push to DockerHub
-
 on:
   push:
     branches:
